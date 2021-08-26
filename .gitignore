@@ -1,0 +1,6 @@
+.DS_Store
+.mfractor
+.vs/AppCenterBuildTest/xs
+bin/
+obj/
+mono_crash.**.json
