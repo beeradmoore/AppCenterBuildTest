@@ -11,7 +11,17 @@ nuget --version
 echo "\n\nmmsbuild version\n"
 msbuild --version
 
-echo "\n\n"
+echo "Mono.framework"
+ls -la /Library/Frameworks/Mono.framework/Versions
+
+echo "Xamarin.iOS.framework"
+ls -la /Library/Frameworks/Xamarin.iOS.framework/Versions
+
+echo "Xamarin.Android.framework"
+ls -la /Library/Frameworks/Xamarin.Android.framework/Versions
+
+echo "Xamarin.Mac.framework"
+ls -la /Library/Frameworks/Xamarin.Mac.framework/Versions
 
 # App Center custom build scripts: https://aka.ms/docs/build/custom/scripts
 
