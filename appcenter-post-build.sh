@@ -1,3 +1,14 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 echo "appcenter-post-build.sh from main"
+
+echo "\n\nmono version\n"
+mono --version
+
+echo "\n\nnuget version\n"
+nuget --version
+
+echo "\n\nmmsbuild version\n"
+msbuild --version
+
+echo "\n\n"
